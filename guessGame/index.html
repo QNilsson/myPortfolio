@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <script src="index.js" type="module"></script>
+  <link
+    href="https://fonts.googleapis.com/css?family=Press+Start+2P"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="main.css" />
+
+  <head>
+    <title>High/Low Guessing Game</title>
+  </head>
+  <nav>
+    <ul id="navbar">
+      <li><a href="../index.html">Home</a></li>
+    </ul>
+  </nav>
+  <body>
+    <div class="container">
+      <header>
+        <h1>High/Low Guessing Game</h1>
+        <h2>Can you guess it spot on?</h2>
+      </header>
+
+      <p>
+        <h2>Welcome!</h2> The object of this game is to guess the number with as few tries as possible. To play, click the 
+        'Get Number' button, then typ in your answer and press 'Submit'. If you are wrong, keep tyipng in a new number and pressing
+        'Submit' until you get it right. To play again, refresh the page and press 'Get Number' again. Good Luck!
+      </p>
+
+      <button id="button">Get Number</button>
+
+      <table>
+        <tr>
+          <th>Play</th>
+          <th>Tries</th>
+          <th>Feedback</th>
+          <th>Award</th>
+        </tr>
+        <tr>
+          <td><input type="number" id="myGuess" /></td>
+          <td id="count"></td>
+          <td id="response"></td>
+          <td id="ribbon"></td>
+        </tr>
+      </table>
+
+      <!-- <button id="button" onclick="getRandomNum()">Submit Guess</button> -->
+     
+      <button id="button2">Submit Guess</button>
+      <footer>
+        <p>&copy; High Low Game LLC &bull; Quinn Nilsson &bull; 2018</p>
+      </footer>
+    </div><!--end container-->
+  </body>
+</html>

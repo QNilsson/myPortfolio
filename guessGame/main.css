@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0 auto;
+    color: #6843a2;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+    font-family: 'Press Start 2P', cursive;
+    line-height: 1.5rem;
+}
+
+#navbar{
+    text-decoration: none;
+    list-style-type: none;
+}
+.container {
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    color: #4a843a;
+    font-family: 'Press Start 2P', cursive;
+}
+
+/*button and number*/
+button {
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    font-size: 16px;
+    margin: 5px 2px;
+    cursor: pointer;
+    border-radius: 3px;
+    color: white;
+    background-color: #DE4904;
+}
+
+#random {
+    color: #DE4904;
+    font-size: 16px;
+}
+
+
+
+#myGuess {
+    padding: 12px;
+    border: 5px solid #4a843a;
+    border-radius: 2px;
+}
+
+/*table*/
+table {
+    border: 1px solid #b5bdc8;
+    padding: 20px;
+    margin: auto;
+    align-content: center;
+}
+
+tr {
+    padding: -15px;
+}
+
+td {
+    padding: 50px;
+}
+
+/*footer*/
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #4a843a;
+    color: white;
+    width: 100%;
+    height: 2.5rem;
+    text-align: center;
+}
